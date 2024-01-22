@@ -3,7 +3,7 @@ public class Node {
 	private Node next;
 	private Node prev;
 	
-	// Constructor	
+	// Constructor with pointers to the next and previous nodes set to null
 	public Node(int data) {
 		this.data = data;
 		this.next = null;
